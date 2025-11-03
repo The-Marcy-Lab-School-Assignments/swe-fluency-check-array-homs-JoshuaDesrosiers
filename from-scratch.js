@@ -10,7 +10,8 @@ const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 
 // Problem 1
 const printEveryWord = (words) => {
-console.log(words.join('\n'))
+// console.log(words.join('\n'))
+words.forEach((word)=>console.log(word))
 };
 
 printEveryWord(sampleWords)
