@@ -41,7 +41,7 @@ console.log(getEvenNumbers(sampleNumbers))
 
 // Problem 5
 const getLargestNumber = (numbers) => {
-return Math.max(...numbers)
+return numbers.sort((a,b)=>b-a)[0]
 };
 console.log(getLargestNumber(sampleNumbers))
 
