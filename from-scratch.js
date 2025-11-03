@@ -12,13 +12,14 @@ const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 const printEveryWord = (words) => {
 console.log(words.join('\n'))
 };
-printEveryWord(['cool','awesome','yes'])
+
+printEveryWord(sampleWords)
 
 // Problem 2
 const getStringLengths = (strings) => {
-
+return strings.map(val=>val.length)
 };
-
+console.log(getStringLengths(sampleWords))
 // Problem 3
 const sortWordsZtoA = (words) => {
 
