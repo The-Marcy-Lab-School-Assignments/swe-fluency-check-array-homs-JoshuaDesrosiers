@@ -10,8 +10,9 @@ const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 
 // Problem 1
 const printEveryWord = (words) => {
-
+console.log(words.join('\n'))
 };
+printEveryWord(['cool','awesome','yes'])
 
 // Problem 2
 const getStringLengths = (strings) => {
